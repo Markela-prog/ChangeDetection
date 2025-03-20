@@ -38,3 +38,15 @@ OnPush strategy tells Angular that the component will only change because some e
 ```
 
 OnPush works when input, manual or event changed
+
+## RxJS
+
+RxJS BehaviorSubject (which allows to create a wrapper around the value and subscription to 
+changes to that value)
+
+<hr>
+
+`this.messages$.next([...this.messages]); `
+
+next - allows to emit a new value
+
